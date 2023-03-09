@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,800;0,900;1,700;1,800;1,900&display=swap');
+
+body {
+    height: 100vh;
+    background-color:#4A235A  ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+header {
+    height: 80px;
+    background-color: #000000;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    
+    
+}
+
+.fonte-1:hover {
+    font-size:35px;
+    box-sizing: border-box;
+    
+}
+
+.fonte-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 15px;
+    
+    background-color: black;
+    border: none;
+    font-family: 'nunito';
+    
+
+}
+
+.img-1 {
+    height: 60px;
+    margin-top: 10px;
+    filter: invert(100%);
+    opacity: 1;
+
+    color: #03e9f4;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.img-1:hover {
+    background: #03e9f4;
+      color: #050801;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 200px #03e9f4;
+       -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+button{
+    
+    color: #03e9f4;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  button:hover{
+      background: #03e9f4;
+      color: #050801;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 200px #03e9f4;
+       -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+  }
